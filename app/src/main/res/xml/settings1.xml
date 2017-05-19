@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogIcon="@mipmap/ic_launcher"
+        android:entries="@array/navigation_drawer_items_array"
+        android:entryValues="@array/navigation_drawer_items_array"
+        android:key="pref_font_size"
+        android:summary="Promjeni boju pozadine"
+        android:title="Boja pozadine"
+        android:defaultValue="#FFFFFF" />
+
+</PreferenceScreen>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/imageViewMainImage"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:src="@drawable/slika_pocetna"
+        android:layout_weight="0.10"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_restaurant" />
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_weight="0.10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonshape"
+        android:text="Nazovi" />
+
+    <Button
+        android:id="@+id/buttonDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_weight="0.10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonshape"
+        android:text="Detalji" />
+
+    <Button
+        android:id="@+id/buttonGalery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_weight="0.10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonshape"
+        android:text="Galerija" />
+
+            <EditText
+                android:id="@+id/nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nickname_hint"
+                android:inputType="text" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comment_hint"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonSendComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_weight="0.10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonshape"
+        android:text="Pošalji" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+</android.support.v4.widget.DrawerLayout>

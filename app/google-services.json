@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "337609801434",
+    "firebase_url": "https://restaurants-3e0aa.firebaseio.com",
+    "project_id": "restaurants-3e0aa",
+    "storage_bucket": "restaurants-3e0aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337609801434:android:f54dd98426291f40",
+        "android_client_info": {
+          "package_name": "labosi.android.tvitko.restaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337609801434-d8k6hjqpmab7mr3ra3b7akmbhcv12e34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtQBkgUrTs3GRvKHhVSjAtr3PQqHLwuYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

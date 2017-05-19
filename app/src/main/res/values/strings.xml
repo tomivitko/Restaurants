@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Restaurants</string>
+    <string name="about_restaurant">Ovo je nešto općenito o restoranu. Naručiti se može na broj: 014444444.</string>
+    <string name="details_restaurant">Adresa: Vrapčanska 12, Zagreb Broj telefona: 01 33333333</string>
+    <string name="open_www_restaurant">Jooš neke info o restoranu.</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="menu_share">Podjeli</string>
+    <string name="menu_settings">Postavke</string>
+    <string name="dialog_title">Odaberi</string>
+    <string name="dialog_option1">Facebook</string>
+    <string name="dialog_option2">Twitter</string>
+    <string name="comment_hint">ostavi komentar</string>
+    <string name="nickname_hint">nadimak:</string>
+    <string name="textComment">Ovo je Vaš komentar:</string>
+
+
+    <string-array name="navigation_drawer_items_array">
+        <item>O restoranu</item>
+        <item>Detalji</item>
+        <item>Galerija</item>
+    </string-array>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>
